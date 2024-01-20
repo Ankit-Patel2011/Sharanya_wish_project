@@ -1,0 +1,48 @@
+
+
+h1{color: orange;
+        margin: 50px;
+        text-align: center;
+}
+        h2{color: orange;}
+        h3{color: orange;
+        margin: 50px;
+        text-align: center;
+        }
+        header{background-color: beige;
+                margin: 50px;
+                text-align: center;
+        }
+        main{background-color: blanchedalmond;
+                margin: 50px;
+                text-align: center;
+        }
+        footer{background-color: azure;
+                margin: 50px;
+                text-align: center;
+        }
+        
+#firstentry{
+                color: grey;
+                text-transform: capitalize;
+                margin-left: 150px;
+                border-left: 50px;
+                text-align: left;
+        }
+         #secondentry{
+                color: grey;
+                text-transform: capitalize;
+                margin-left: 150px;
+                text-align: left;
+        }
+        #thirdentry{
+                color: grey;
+                text-transform: capitalize;
+                margin-left: 150px;
+                text-align: left;
+        } 
+        input{
+                margin: normal;
+                
+                
+        }

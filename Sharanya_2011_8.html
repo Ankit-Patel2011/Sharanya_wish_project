@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy New Year, Sharanya Srivastav!</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #141414;
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #333;
+      padding: 15px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+      color: #e74c3c;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    p {
+      font-size: 18px;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    .glow-text {
+      font-size: 28px;
+      font-weight: bold;
+      color: #3498db;
+      text-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db;
+      animation: glow 2s infinite alternate;
+    }
+    #backBtn {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+      transition: background-color 0.3s ease-in-out;
+    }
+    #backBtn:hover {
+      background-color: #2980b9;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    }
+    nav a:hover {
+      color: #e74c3c;
+    }
+    @keyframes glow {
+      from {
+        color: #3498db;
+        text-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db;
+      }
+      to {
+        color: #e74c3c;
+        text-shadow: 0 0 10px #e74c3c, 0 0 20px #e74c3c, 0 0 30px #e74c3c;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="/aboutme.html">About Me</a>
+    <a href="/index.html" id="backBtn">Back</a>
+    <a href="/review.html">Review</a>
+  </nav>
+  <header>
+    <h1>Happy New Year, Sharanya Srivastav!</h1>
+    <h2 class="glow-text">Wishing you a year filled with joy and success.</h2>
+    <p>Our friendship is a treasure. Here's to another year of laughter, adventure, and unforgettable moments together. I hope we are still together, even if we were not in touch with each other for some times.  </p>
+    <!-- You can add her images here if you have them -->
+  </header>
+  <!-- <img src="/WhatsApp Image 2024-01-01 at 08.58.58_7684ef28.jpg" id="img_1">
+  <img src="/WhatsApp Image 2024-01-01 at 08.58.58_dede4009.jpg" id="img_2"> -->
+
+  <script>
+    document.getElementById('backBtn').addEventListener('click', function() {
+      // Implement the action for the back button, e.g., go back to the previous page
+      window.history.back();
+    });
+  </script>
+</body>
+</html>
